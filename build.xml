@@ -12,7 +12,7 @@
         <property name="ant.build.javac.source" value="1.7" />
         <property name="ant.build.javac.target" value="1.7" />
        
-	<property name="main.class" value="org.umn.hadoop.Main" />
+	<property name="main.class" value="org.umn.mntg.Main" />
 	
         <!--
         <property name="main.class" value="org.gistic.taghreed.diskBaseQuery.server.Main" />
