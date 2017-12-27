@@ -37,7 +37,8 @@ public class MntgDriver extends Configured implements Tool {
 		conf.setMapperClass(MntgMapper.class);
 		conf.setCombinerClass(MntgReducer.class);
 		conf.setReducerClass(MntgReducer.class);
-		
+		conf.setNumMapTasks(1);
+		conf.setNumReduceTasks(1);
 		conf.setInputFormat(TextInputFormat.class);
 		conf.setOutputFormat(TextOutputFormat.class);
 
